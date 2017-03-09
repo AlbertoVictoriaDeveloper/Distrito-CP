@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Asignaciones</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--external css-->
+    <link href="fonts/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.gritter.css" />
+        
+    <!-- Custom styles for this template -->
+   <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet">
+<script src="js/jquery.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <section id="container" >
+      <!-- **********************************************************************************************************************************************************
+      TOP BAR CONTENT & NOTIFICATIONS
+      *********************************************************************************************************************************************************** -->
+      <!--header start-->
+      <header class="header black-bg">
+             
+            <!--logo start-->
+         <a href="menu.html" class="logo"><b>DistritoCP</b></a>
+            <!--logo end-->
+          
+            <div class="top-menu">
+            	<ul class="nav pull-right top-menu">
+                    <li><button id="logout" name = "logout" type="button" onclick="cerrarSession()" class="logout">Salir</button></li>
+					<!-- <li><a   class="logout" href="index.html">Salir</button></a>-->
+            	</ul>
+            </div>
+        </header>
+      <!--header end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN SIDEBAR MENU
+      *********************************************************************************************************************************************************** -->
+      <!--sidebar start-->
+      
+      <!--sidebar end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper">
+      	<div class="row mt">
+      			<div class="col-lg-6 col-md-6 col-sm-12">
+      				<! -- BASIC PROGRESS BARS -->
+      				<div class="col-lg-12">
+          			<div class="form-panel" id = "formPanel" name="formPanel">
+                  	  <h4 class="mb">Asignacion de Usuarios</h4>
+					   <div id="validacionUsuario" name="validacionUsuario">
+
+					   </div>
+						<br>
+						<div id="validacionAccesos" name="validacionAccesos">
+						
+
+					</div>
+                         <br>
+<center><button type="button" class="btn btn-primary btn-sm" id="btnAsignar"  name="btnAsignar" onclick="validarAcceso()">Asignar</button></center>
+					  <h4>Asignaciones</h4>
+	                  	  	  <hr>
+					<table id = "tablaRegistro"  name= "tablaRegistro" class="table table-striped table-advance table-hover">
+	                  	  
+                          </table>
+					
+					
+					
+          			</div>
+          		</div>
+      		
+      				
+      				
+      				
+      			</div><!-- <! --/col-lg-6 --> 
+      			
+      			
+      			
+      			
+      		 </div>
+          </section><! --/wrapper -->
+      </section><!-- /MAIN CONTENT -->
+
+      <!--main content end-->
+      <!--footer start-->
+     
+      <!--footer end-->
+  </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/registraUsusi.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script class="include" type="text/javascript" src="js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+
+	
+
+    <!--common script for all pages-->
+    <script src="js/common-scripts.js"></script>
+
+    <!--script for this page-->
+    <script type="text/javascript" src="js/jquery.gritter.js"></script>
+    <script type="text/javascript" src="js/gritter-conf.js"></script>
+    
+  <script>
+
+ 
+
+  </script>
+
+  </body>
+</html>
